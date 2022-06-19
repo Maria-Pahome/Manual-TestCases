@@ -1,0 +1,235 @@
+                                      TestCase1
+1. ID: 1
+2. Title: Test the presence and alignment of the search field
+3. Priority: high
+4. Description: the test verifies the presence and alignment of the search field
+5. Prerequisites: internet connection, browser, website
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Navigate to the upper level of the page
+d. Check the presence of the "search" input
+e. Check if the "search" input is align to the upper level of the page
+7. Expected results: The "search" bar should be present at the upper level of the page
+8. Actual results: The "search" bar is at the upper level of the page
+9. Status: Passed
+
+
+                                       TestCase2
+1. ID: 2
+2. Title: Test the presence of the placeholder on "search" bar
+3. Priority: medium
+4. Description: The test verifies if a placeholder text is added on "search" or not
+5. Prerequisites: internet connection, browser, website
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Navigate to the upper level of the page
+d. Check the existence of a placeholder text inside the "search" bar
+7. Expected results: The "search" bar should have a placeholder text
+8. Actual results: The "search" bar has a placeholder text
+9. Status: Passed
+
+                                        TestCase3
+1. ID: 3
+2. Title: Test the presence of an icon search
+3. Priority: high
+4. Description: The test verifies if the "search icon" is present next to "search" bar
+5. Prerequisites: internet connection, browser, website
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Navigate to the upper level of the website
+d. Check "search icon" if it's next to "search" bar
+7. Expected results: The "search" icon should be present next to the "search" bar
+8. Actual results: The "search" icon is inside the "search" bar
+9. Status: Passed
+
+                                         TestCase4
+1. ID: 4
+2. Title: Test the cursor present on click over "search" icon
+3. Priority: medium
+4. Description: The test verifies if the cursor presents on click on the "search" icon.
+5. Prerequisites: internet connection, browser, website
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Navigate to the upper level of the website
+d. Check "search icon" if it's next to "search" bar
+e. Navigate with the cursor over the "search" icon
+7. Expected results: The cursor cursor should present on click on the "search" icon.
+8. Actual results: The cursor shows present on click on the "search" icon.
+9. Status: Passed
+
+                                           TestCase5
+1. ID: 5
+2. Title: Test "search" bar functionality with valid keywords
+3. Priority: high
+4. Description: The test verifies if search is functional and generating the correct result for correct keywords or not by adding valid search.
+5. Prerequisites: internet connection, browser, website, search keywords
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Click inside the "search" bar
+e. Enter "earrings" keyword
+f. Click on "search icon"
+7. Expected results: The website should show sections with earrings products
+8. Actual results: The website shows earrings products
+9. Status: Passed
+
+                                             TestCase6
+1. ID: 6
+2. Title: Test "search" bar with valid keyword and "Enter" from keyboard
+3. Priority: high
+4. Description: The test verifies "search" bar working by adding keyword and pressing the "Enter" key from the keyboard.
+5. Prerequisites: internet connection, browser, website, keyword, keyboard
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Click inside the "search" bar
+e. Enter "golden rings" keywords
+f. Click "Enter" key from the keyboard
+7. Expected results: The "search" bar should function with valid keywords and "Enter" key
+8. Actual results: The "search" bar functions with valid keywords and "Enter" key
+9. Status: Passed
+
+                                              TestCase7
+1. ID: 7
+2. Title: Test "paste" keyword command on the "search" bar
+3. Priority: high
+4. Description: The test verifies if he user can "paste" the keyword with the mouse.
+5. Prerequisites: internet connection, browser, website, keyword
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+e. Enter "rings" keyword inside the "search" bar
+f. Double click to select "rings" keyword
+g. Click right on the mouse
+h. Choose "Cut" command
+i. Click right on the mouse inside the "search" bar
+j. Choose "Paste" command
+7. Expected results: The "Paste" command should show keyword inside the "search" bar
+8. Actual results: The "Paste" command shows "rings" keyword
+9. Status: Passed
+
+                                             TestCase8
+1. ID: 8
+2. Title: Test error message on invalid keywords in the "search" field
+3. Priority: minor
+4. Description: The test verifies if an error message displays by entering invalid keywords in the "search" field and clicking the "search" button.
+5. Prerequisites: internet connections, browser, website, keyword
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Enter "qwerqqq" keyword
+7. Expected results: The website should show an error when entering invalid keywords in the "search" field.
+8. Actual results: The website shows products and not an error message
+9. Status: Failed
+
+                                          TestCase9
+1. ID: 9
+2. Title: Test error message for blank input
+3. Priority: minor
+4. Description: The test verifies if an error message is displayed for blank input.
+5. Prerequisites: internet connections, browser, website
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Clear "search" bar
+e. Click on "search" icon
+7. Expected results: The website should show an error message for blank input
+8. Actual results: The website shows random item sections
+9. Status: Failed
+
+
+                                        TestCase10
+1. ID: 10
+2. Title: Test pagination added for multiple pages on search
+3. Priority: medium
+4. Description: The test verifies if the pagination is added in case the search result goes on a number of pages.
+5. Prerequisites: internet connections, browser, website
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Enter "rings" keyword
+e. Navigate to the lower part of the page
+f. Verify if there are multiple pages added as per searched keyword
+7. Expected results: The website should show at least one more page per searched keyword
+8. Actual results: The website shows more than 7 pages as per searched keyword
+9. Status: Passed
+
+                                         TestCase11
+1. ID: 11
+2. Title: Pagination accessibility on clicking NEXT, PREVIOUS and number
+3. Priority: high
+4. Description: The test verifies if the pagination is accessible or not by clicking on the Next, Previous and number.
+5. Prerequisites: internet connections, browser, website, keywords
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Enter "rings" keyword
+e. Navigate to the lower part of the page
+f. Verify if there are multiple pages added as per searched keyword
+g. Verify the existence of Next, Previous and number page
+h. Click on Next, Previous and number page
+7. Expected results: The buttons should indicate the required pages
+8. Actual results: The buttons shows the indicated pages
+9. Status: Passed
+
+                                        TestCase12
+1. ID: 12
+2. Title: Suggestions shown on adding a keyword to search
+3. Priority: medium
+4. Description: The test verifies if suggestions are shown or not on adding a keyword to search.
+5. Prerequisites: internet connections, browser, website, keywords
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Enter "rings" keyword
+e. Verify if there is a list of suggestions generated by the keyword
+7. Expected results: The "search" bad should generate a list of suggestions of keywords similar to the keyword
+8. Actual results: The "search" bar generates a list of suggestions similar to the keywords
+9. Status:
+
+                                            TestCase13
+1. ID: 13
+2. Title: Test maximum range for the search keyword
+3. Priority: medium
+4. Description: The test verifies the maximum range for the search keyword.
+5. Prerequisites: internet connections, browser, website, keyword
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Enter "sdfghjhgfdsasdefghjhgfdsasdfghjnmhgfdsasdfghjhgfds" keyword
+7. Expected results: The searched keyword should have only 50 characters
+8. Actual results: The searched keyword has 50 characters
+9. Status: Passed
+
+TestCase14:
+1. ID: 14
+2. Title: Verify if the search bar has an "max-length=70" attribute
+3. Priority: minor
+4. Description: The test verifies if the "search" input as "max-length=70" attribute
+5. Prerequisites: internet connections, browser, website, DevTools
+6. Test steps:
+a. Open the browser
+b. Enter the URL "https://best.aliexpress.com/"
+c. Locate "search bar" to the upper level of the website
+d. Click right on mouse on the "search" bar
+e. Choose "Inspect"
+f. Click on "Select an element" arrow next to Toggle button
+g. Click on "search" bar to identify its "input" tag
+h. Verify if the "search" input has attribute max-length=70
+7. Expected results: The search bar should have max-length=70
+8. Actual results: The search bar  have max-length=50
+9. Status: Failed
+
